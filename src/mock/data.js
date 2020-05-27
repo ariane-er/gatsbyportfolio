@@ -2,22 +2,22 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Ariane | Developer & Engineer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: "Ariane's Portfolio", // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: "Hi, I'm",
+  name: 'Ariane,',
+  subtitle: "the developer you're looking for.",
+  cta: 'Get to know me',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile-pic-inv.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
