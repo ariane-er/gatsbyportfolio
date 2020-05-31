@@ -31,67 +31,60 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'robofriends.png',
+    title: 'Robofriends',
+    info: 'A simple page built when I got started with React & Redux.',
+    info2:
+      'Takes robot data from an API and displays cards. It includes a searchbox that filters the robots as you type in it.',
+    url: 'https://ariane-er.github.io/robofriends/',
+    repo: 'https://github.com/ariane-er/robofriends', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'hexkey.png',
+    title: 'HexKey',
+    info: 'A utility Android app that encodes and decodes hexadecimal keys.',
+    info2: 'Used to copy car key data, using Java for Android.',
+    // url: 'https://ariane-er.github.io/robofriends/', //if no live version, button doesn't show up.
+    repo: 'https://github.com/ariane-er/hexkey', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta:
+    'I would love to talk about new opportunities, contribute to your projects and learn new things.',
+  btn: "Let's chat",
+  email: 'ariane.ernandorena@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: uuidv1(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: uuidv1(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/ariane-ernandorena-64475979/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ariane-er',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
