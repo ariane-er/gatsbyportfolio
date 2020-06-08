@@ -37,7 +37,7 @@ export const projectsData = [
     info2:
       'Takes robot data from an API and displays cards. It includes a searchbox that filters the robots as you type in it.',
     url: 'https://ariane-er.github.io/robofriends/',
-    repo: 'https://github.com/ariane-er/robofriends', // if no repo, the button will not show up
+    repo: 'https://github.com/ariane-er/robofriends-raw', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
