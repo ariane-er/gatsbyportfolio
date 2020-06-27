@@ -31,11 +31,25 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'smartbrain.png',
+    title: 'Smart Brain',
+    info: 'A fully functional face recognition app.',
+    info2:
+      'Front-end: React \nBack-end: Node.js & Express \nDatabase: PostgreSQL \n' +
+      'Data from login and sign up are stored safely in database using Bcrypt. By using the Clarifai API, ' +
+      'you can feed the app the URL of a picture with faces, and have them be recognised and marked on screen. ' +
+      'Try it out! No email confirmation needed :)',
+    url: 'https://smart-brain-ari.herokuapp.com//',
+    repo: 'https://github.com/ariane-er/smartbrains', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'robofriends.png',
     title: 'Robofriends',
     info: 'A simple page built when I got started with React & Redux.',
     info2:
-      'Takes robot data from an API and displays cards. It includes a searchbox that filters the robots as you type in it.',
+      'Takes robot data from an API and displays cards. It includes a searchbox that filters the robots as you type in it. ' +
+      'Uses Redux to constantly update the card list as you type your search.',
     url: 'https://ariane-er.github.io/robofriends/',
     repo: 'https://github.com/ariane-er/robofriends-raw', // if no repo, the button will not show up
   },
@@ -53,7 +67,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta:
-    'I would love to talk about new opportunities, contribute to your projects and learn new things.',
+    'I am currently employed as a full-stack developer, but I am always open to discuss new opportunities, contribute to your projects and learn new things.',
   btn: "Let's chat",
   email: 'ariane.ernandorena@gmail.com',
 };
